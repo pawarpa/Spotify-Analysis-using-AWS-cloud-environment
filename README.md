@@ -40,10 +40,10 @@ By deploying this Spotify data pipeline on AWS, the project strives to deliver a
 </p>
 
 ## Required Links :
-Spotify for Developer - https://developer.spotify.com/
-Create a Free AWS Account - https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222
-Spotipy Library - https://spotipy.readthedocs.io/en/2.22.1/
-Spotify Top Songs Global playlist - https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF
+- Spotify for Developer - https://developer.spotify.com/
+- Create a Free AWS Account - https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222
+- Spotipy Library - https://spotipy.readthedocs.io/en/2.22.1/
+- Spotify Top Songs Global playlist - https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF
 
 ## Reference:
 https://learn.datawithdarshil.com/courses/Python-for-Data-Engineering

@@ -24,7 +24,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 
 # provide client_id and client_secret - Authentication 
-client_credentials_manager = SpotifyClientCredentials(client_id='baafe8209e63493ab8a2cb0a514da07f', client_secret='ff4d2fb3b3c0469f989cf82fd5c821da')
+client_credentials_manager = SpotifyClientCredentials(client_id='', client_secret='')
 
 
 # In[5]:
@@ -261,4 +261,45 @@ song_df.info()
 
 
 song_df.head()
+
+
+# In[37]:
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+# In[38]:
+
+
+# Set the style for seaborn
+sns.set(style="whitegrid")
+
+
+# In[39]:
+
+
+# Visualization: Album Release Distribution
+plt.figure(figsize=(12, 6))
+sns.lineplot(x='release_date', y='total_tracks', data=album_df, label='Number of Tracks')
+plt.title('Album Release Distribution')
+plt.xlabel('Release Date')
+plt.ylabel('Number of Tracks')
+plt.show()
+
+
+# In[40]:
+
+
+# Visualization: Top 10 Albums by Popularity
+top_n = 10
+top_albums = album_df.nlargest(top_n, 'total_tracks')
+
+plt.figure(figsize=(12, 6))
+sns.barplot(x='total_tracks', y='name', data=top_albums, palette='viridis')
+plt.title(f'Top {top_n} Albums by Total Tracks')
+plt.xlabel('Total Tracks')
+plt.ylabel('Album Name')
+plt.show()
 

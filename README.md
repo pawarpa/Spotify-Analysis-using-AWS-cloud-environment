@@ -13,8 +13,6 @@ To facilitate seamless analytics, the project will encompass the creation of ana
 By deploying this Spotify data pipeline on AWS, the project strives to deliver a scalable, reliable, and automated solution for the extraction, transformation, and analysis of Spotify data. This, in turn, aims to unlock valuable insights for diverse analytical purposes.
 
 ## Data Architecture 
-[Lucid Chart](https://lucid.app/lucidchart/995410f3-c4fc-4da3-ab55-2b1b2adeb535/view?invitationId=inv_b033e39e-388d-4cc7-b718-7bd4eb577a98&page=0_0#)
-
 <br>
 <p align="center">
 	<img src="assets/Data architecture-Spotify-Analysis-using-AWS.png" width='100%'><br><br
